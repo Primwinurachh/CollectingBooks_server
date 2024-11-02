@@ -1,0 +1,169 @@
+body {
+  background-color: #e9ecef;
+}
+
+.quote-details-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.quote-details {
+  display: flex;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  max-width: 1000px;
+  overflow: hidden;
+}
+
+.quote-details img {
+  width: 100%;
+  max-width: 300px;
+  height: 420px;
+  object-fit: cover;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 15px;
+}
+
+.details-content {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details-content h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.details-content .quote {
+  font-size: 20px;
+  color: #555;
+  margin: 10px 0;
+
+}
+
+.details-content .meta {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.details-content .status {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.delete-btn {
+  padding: 10px 35px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.back-btn {
+  padding: 10px 35px;
+  background-color: #6B73FF;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-btn:hover {
+  background-color: #ef645a;
+}
+
+.back-btn:hover {
+  background-color: #494DC5;
+}
+
+.confirmation-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: #fff;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  text-align: center;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.popup-buttons button {
+  width: auto;
+  height: 38px;
+  border-radius: 30px;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  word-wrap: normal;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  padding: 8px 24px;
+}
+
+.cancel-button:hover {
+  background-color: #ef645a;
+}
+
+.confirm-button {
+  background-color: #04aa6d;
+  padding: 8px 24px;
+}
+
+.confirm-button:hover {
+  background-color: #04aa6d;
+}
+
+.message-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  background: white;
+  border-radius: 30px;
+  border: 1px solid black;
+  z-index: 1000;
+  text-align: center;
+}
+
+.message-popup p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+

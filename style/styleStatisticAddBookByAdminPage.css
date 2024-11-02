@@ -1,0 +1,72 @@
+body {
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.month-years {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-left: 0;
+    background-color: #f4f4f9;
+}
+
+.form_group {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.month-input {
+    width: 200px;
+    height: 30px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.label {
+    width: 31px;
+    height: 39px;
+    color: black;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.20px;
+    text-align: center;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #414141;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: auto;
+    height: 460px;
+    max-width: 1000px;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 460px;
+}

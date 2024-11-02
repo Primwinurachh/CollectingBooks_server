@@ -1,0 +1,177 @@
+.form_container {
+    width: 650px;
+    height: 360px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.form_group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.input-group label {
+    width: 30%;
+    text-align: right;
+    margin-right: 10px;
+    color: #000;
+}
+
+.input-box {
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.back-button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    background-color: #6B73FF;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #494DC5;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.radio-options {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.radio-options input[type="radio"],
+.radio-options label {
+    margin-right: 15px;
+}
+
+.input-group input[type="text"] {
+    width: 370px;
+}
+
+.radio-label {
+    display: flex;
+    align-items:end;
+    margin-left: 82px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+}
+
+.popup {
+    width: 260px;
+    height: 135px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 9999;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popup-success {
+    font-size: 16px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.popup-message {
+    font-size: 16px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popup-buttons button {
+    width: auto;
+    height: 38px;
+    border-radius: 30px;
+    font-size: 16px;
+    letter-spacing: 0.20px;
+    word-wrap: normal;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    padding: 8px 16px;
+}
+
+.cancel-button:hover {
+    background-color: #ef645a;
+    ;
+}
+
+.add-button {
+    background-color: #04AA6D;
+    padding: 8px 24px
+}
+
+.add-button:hover {
+    background-color: #3ac994;
+}
+
+.profile-picture-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    max-width: 110px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}

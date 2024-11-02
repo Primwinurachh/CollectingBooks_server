@@ -1,0 +1,347 @@
+.center_content {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.SearchBar {
+    display: none;
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input_group input[type="text"],
+.input_group select {
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #fff;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.SearchBar select,
+.SearchBar input[type="text"]{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #fff;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.SearchBar select :focus,
+.SearchBar input[type="text"]:focus,
+.input_group input[type="text"]:focus,
+.input_group select:focus {
+    border-color: #000;
+    border: 1px solid #000;
+    
+}
+
+.self_input_container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 20px 20px 0;
+}
+
+.SelfInputForm {
+    display: none;
+    padding: 30px;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form_col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input_group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.input_group label {
+    color: #414141;
+    min-width: 80px;
+    text-align: left;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.image_upload_group label {
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.image_upload_group label:hover {
+    background-color: #ccc;
+}
+
+.image_upload_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 2px solid #ccc;
+    width: 80%;
+    height: 400px;
+    padding: 80px;
+    box-sizing: border-box;
+    margin-left:100px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.image_preview {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    width: 80%;
+    height: 400px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 0px;
+    margin-left:100px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.dropdown_container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.book_source_dropdown {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.book_source_dropdown:focus {
+    border-color: #000;
+    border: 1px solid #000;
+}
+
+.note {
+    text-align: center;
+    color: #000;
+}
+
+.helper-text {
+    display: none;
+    position: absolute;
+    color: #888;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    width: auto;
+    left: 15%;
+    bottom: -5px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.submit_button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px 35px;
+    background-color: #6b73ff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit_button:hover {
+    background-color: #4b55ff;
+}
+
+input::placeholder {
+    color: #000;
+    opacity: 1;
+}
+
+.popup {
+    width: 260px;
+    height: 135px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 9999;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popup-success {
+    font-size: 16px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.popup-message {
+    font-size: 16px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popup-buttons button {
+    width: auto;
+    height: 38px;
+    border-radius: 30px;
+    font-size: 16px;
+    letter-spacing: 0.20px;
+    word-wrap: normal;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    padding: 8px 16px;
+}
+
+.cancel-button:hover {
+    background-color: #ef645a;
+    ;
+}
+
+.add-button {
+    background-color: #04AA6D;
+    padding: 8px 24px
+}
+
+.add-button:hover {
+    background-color: #04AA6D;
+}
+
+.popup {
+    width: 260px;
+    height: 135px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 9999;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popup-success {
+    font-size: 16px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.popup-message {
+    font-size: 16px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popup-buttons button {
+    width: auto;
+    height: 38px;
+    border-radius: 30px;
+    font-size: 16px;
+    letter-spacing: 0.20px;
+    word-wrap: normal;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    padding: 8px 16px;
+}
+
+.cancel-button:hover {
+    background-color: #ef645a;
+    ;
+}
+
+.add-button {
+    background-color: #04AA6D;
+    padding: 8px 24px
+}
+
+.add-button:hover {
+    background-color: #04AA6D;
+}

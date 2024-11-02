@@ -1,0 +1,233 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 140px);
+    margin-top: 0;
+}
+
+.add-profile-container {
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px 0;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.input-group label {
+    min-width: 50px;
+    color: #414141;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input-group input[type="text"] {
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #fff;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    display: block;
+    margin: 0px auto 0;
+    padding: 10px 35px;
+    background-color: #6B73FF;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background: #4B55FF;
+}
+.input-group label img {
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+}
+.image-upload-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    width: 120px;
+    height: 120px;
+    padding: 80px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-upload-button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.image-upload-button:hover {
+    background-color: #ccc;
+}
+
+
+.image-upload-button img {
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+.image-preview {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    width: 280px;
+    height: 280px;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.popup {
+    width: 300px;
+    height: 120px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 30px;
+    border: 1px solid #ccc;;
+    display: none;
+    z-index: 9999;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popup-success {
+    font-size: 16px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.popup-message {
+    font-size: 16px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popup-buttons button {
+    width: auto;
+    height: 38px;
+    border-radius: 30px;
+    font-size: 16px;
+    letter-spacing: 0.20px;
+    word-wrap: normal;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    padding: 8px 16px;
+}
+
+.cancel-button:hover {
+    background-color: #ef645a;
+}
+
+.add-button {
+    background-color: #04AA6D;
+    padding: 8px 24px
+}
+
+.add-button:hover {
+    background-color: #3ac994;
+}
+
+input::placeholder {
+    color: #000;
+    opacity: 1;
+}
+
+.note {
+    text-align: center;
+    color: #414141;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.helper-text {
+    display: none;
+    position: absolute;
+    width: 100%;
+    font-size: 10px;
+    color: #888;
+    text-align: center;
+    bottom: -20px;
+}
+
+.input_info {
+    font-size: 10px;
+    color: #555;
+    margin-top: -15px;
+}

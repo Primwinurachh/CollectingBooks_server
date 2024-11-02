@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อผิดพลาดในการเชื่อมต่อฐานข้อมูล</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style//styleLoginPage.css">
+    <style>
+        * {
+            font-family: "Anuphan", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .error-container {
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .error-header {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #e5e5e5;
+            margin: 20px 0;
+            border: none;
+        }
+
+        .error-details {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .error-details ul {
+            margin: 10px 0 20px 20px;
+        }
+
+        .error-details ul li {
+            margin-bottom: 10px;
+        }
+
+        .support-link {
+            font-size: 14px;
+            color: #0073aa;
+            text-decoration: none;
+        }
+
+        .support-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="error-container">
+        <div class="error-header">ข้อผิดพลาดในการเชื่อมต่อฐานข้อมูล</div>
+        <hr class="divider">
+        <div class="error-details">
+            <p>การเชื่อมต่อกับเซิร์ฟเวอร์ฐานข้อมูลที่ <strong>localhost</strong> ถูกตัดขาด
+                อาจหมายความว่าเซิร์ฟเวอร์ฐานข้อมูลของโฮสต์คุณล่ม</p>
+            <ul>
+                <li>คุณแน่ใจหรือไม่ว่าเซิร์ฟเวอร์ฐานข้อมูลกำลังทำงานอยู่?</li>
+                <li>คุณแน่ใจหรือไม่ว่าเซิร์ฟเวอร์ฐานข้อมูลไม่ได้รับภาระหนักมากเกินไป?</li>
+            </ul>
+            <p>หากคุณไม่แน่ใจว่าข้อกำหนดเหล่านี้หมายความว่าอย่างไร คุณควรติดต่อโฮสต์ของคุณ</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

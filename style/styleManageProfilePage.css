@@ -1,0 +1,109 @@
+* {
+    font-family: "Anuphan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.image_button {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 220px;
+}
+
+.image_button img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease;
+    margin-top: 5px;
+}
+
+.image_button img:hover {
+    transform: scale(1.1);
+}
+
+.image_button img:active {
+    transform: scale(0.9);
+}
+.container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+    justify-items: center;
+
+}
+
+.profile {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    margin: 5px;
+}
+
+.AddProfile {
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.profile p {
+    margin: 5px 0;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.score-container img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+    margin-left: 0px;
+}
+
+.score-container p {
+    margin: 0;
+
+}
+
+.delete-button {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.delete-button:hover {
+    background-color: #ff0000;
+}

@@ -1,0 +1,159 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.search input[type=text] {
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding-left: 40px;
+    margin-right: 10px;
+}
+
+.search-image {
+    width: 20px;
+    height: 20px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-42%);
+    cursor: pointer;
+}
+
+.search-button {
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    background-color: #6B73FF;
+    color: white;
+    cursor: pointer;
+    margin-left: 0px;
+    padding: 0 20px;
+}
+
+.search-button:hover {
+    background-color: #4B55FF;
+}
+
+
+.tab {
+    overflow: hidden;
+    background-color: #D9D9D9;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 20px;
+    width: 50%;
+    color: #000;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+
+.tab button:hover {
+    background-color: #fff;
+}
+
+.tab button.active {
+    background-color: #fff;
+    color: #000;
+}
+
+.tabcontent {
+    display: none;
+    padding: 40px 0 5px;
+    color: #000;
+}
+
+.tabcontent h3 {
+    font-size: 24px;
+}
+
+.tabcontent p {
+    font-size: 16px;
+}
+
+.table {
+    margin: 10px 20px 0;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.pagination {
+    left: 50px;
+    display: flex;
+    justify-content: start;
+    margin-left: 0;
+    /*position:fixed;*/
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 10px 5px;
+}
+
+.pagination a.active {
+    background-color: #414141;
+    color: white;
+    border: 1px solid #414141;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.search-results {
+    position: relative;
+    top: -8px;
+    margin-left: 300px;
+    font-size: 16px;
+    color: #333;
+    border: none;
+}

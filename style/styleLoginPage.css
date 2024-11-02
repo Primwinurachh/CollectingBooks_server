@@ -1,0 +1,84 @@
+* {
+    font-family: "Anuphan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #414141;
+}
+
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.container .logo {
+    margin-bottom: 0.1rem;
+}
+
+.input_group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.input_group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.input_group input {
+    width: 100%;
+    padding: 0.75rem 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.input_group input:focus {
+    border-color: #6B73FF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(107, 115, 255, 0.5);
+}
+
+.btn {
+    background: #6B73FF;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #4B55FF;
+}
+
+.error_message {
+    color: #ff4d4d; /* สีแดงที่สื่อถึงข้อผิดพลาด */
+    background-color: #ffe6e6; /* พื้นหลังสีแดงอ่อนเพื่อเน้นข้อความ */
+    border: 1px solid #ff4d4d; /* ขอบสีแดง */
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin-bottom: 1rem; /* เว้นระยะห่างจากโลโก้และฟอร์ม */
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงาเบาๆ */
+}
+

@@ -1,0 +1,137 @@
+body {
+    background-color: #f4f4f4;
+}
+.form_col {
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+}
+
+.input_group {
+    margin-bottom: 20px;
+}
+
+.input_group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input_group input,
+.input_group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.input_group input:focus,
+.input_group select:focus {
+    border-color: #6B73FF;
+    outline: none;
+}
+
+.button_group {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.back_button {
+    background-color: #6B73FF;
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+.back_button:hover {
+    background-color: #4B55FF;
+}
+
+.submit_button {
+    background-color: #07d288;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+.submit_button:hover {
+    background-color: #04AA6D;
+}
+
+.delete_button {
+    background-color: #F95959;
+    color: white;
+    padding: 10px 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+.delete_button:hover {
+    background-color: #f72626;
+}
+
+.book_info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.book_info img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.book_info button {
+    background-color: #F95959;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+}
+
+.book_info button:hover {
+    background-color: #f72626;
+}
+
+#image_preview {
+    margin-top: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
