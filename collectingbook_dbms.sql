@@ -335,7 +335,6 @@ CREATE TABLE `user_profiles` (
 --
 -- Indexes for dumped tables
 --
-
 --
 -- Indexes for table `admins`
 --
